@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://hicar.cool',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -41,19 +41,22 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: '全部消息',
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+
       }),
     ],
   ],
@@ -70,13 +73,14 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          //{
-          //  type: 'docSidebar',
-          //  sidebarId: 'tutorialSidebar',
-          //  position: 'left',
-          //  label: 'Tutorial',
-          //},
-          //{to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: '教程',
+          },
+          //{to: '/box', label: '周边', position: 'left'},
+          //{to: '/blog', label: '最新消息', position: 'left'},
           {
             href: 'https://developer.huawei.com/consumer/cn/HiCar',
             label: 'HiCar官网',
@@ -87,15 +91,23 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          //{
-          //  title: 'Docs',
-          //  items: [
-          //    {
-          //      label: 'Tutorial',
-          //      to: '/docs/intro',
-          //    },
-          //  ],
-          //},
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: '教程',
+                to: '/docs/intro',
+              },
+              //{
+              //  label: '周边',
+              //  to: '/box',
+              //},
+              //{
+              //  label: '最新消息',
+              //  to: '/blog',
+              //},
+            ],
+          },
           {
             title: 'Support',
             items: [
@@ -118,14 +130,14 @@ const config = {
             items: [
               {
                 html: `
-                    <img src="img/wechatcode.png" alt="微信公众号" width="200" height="66" />
+                    <img src="https://hicar.cool/img/wechatcode.png" alt="微信公众号" width="270"  />
                   `,
               },
           
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} HiCar情报站, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} HiCar情报站, Inc. Build with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
