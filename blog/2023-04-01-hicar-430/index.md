@@ -14,7 +14,7 @@ tags: [HiCar版本更新]
 
 ## HiCar 13.2.0.431版本也来了
 
-可能更多的人还没看到430版本，却已经收到了431版本，咋回事呢？其实翻看咱们之前写的内容，就清楚了，这是HiCar特有的版本号节奏。链接在这里：[HiCar版本说明](../../docs/version)。
+可能更多的人还没看到430版本，却已经收到了431版本，咋回事呢？其实翻看咱们之前写的内容，就清楚了，这是HiCar特有的版本号节奏。链接在这里：[HiCar版本说明](https://hicar.cool/docs/version)。
 
 <img
   src={require('./hicar-430-1.jpg').default}
