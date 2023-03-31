@@ -71,7 +71,7 @@ export default function HomepageFeatures() {
         <td>2023.03</td>
         <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooDwt5BKgGEVkJib0?e=v8yH0z" target="_blank">13.2.0.425</a></td>
         <td></td>
-        <td></td>
+        <td><a href="https://1drv.ms/u/s!AjNBmOx9zvFooEEzuIRVYa9eBXOY?e=txpoHW" target="_blank">13.2.0.431</a></td>
         </tr>
         <tr>
         <td>2023.02</td>
